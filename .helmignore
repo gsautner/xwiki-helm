@@ -18,5 +18,6 @@
 # Various IDEs
 .project
 .idea/
+.vscode/
 *.tmproj
 charts/*/tests/
