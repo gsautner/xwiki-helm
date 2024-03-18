@@ -23,4 +23,3 @@ Please check the [documentation](https://extensions.xwiki.org/xwiki/bin/view/Ext
 * Translations: N/A
 * Sonar Dashboard: N/A
 * Continuous Integration Status: N/A
-
