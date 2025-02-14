@@ -100,8 +100,8 @@ jobs:
       - name: Login to XWiki SAS Container Registry
         uses: docker/login-action@v1
         with:
-          registry: git.xwikisas.com:5050
-          username: github-deploy-token
+          registry: ${{ env.XWIKISAS_REGISTRY }}
+          username: ${{ env.XWIKISAS_REGISTRY_USER }}
           password: ${{ secrets.XWIKISAS_REGISTRY_TOKEN }}
 
       - name: Push Charts to XWiki SAS
